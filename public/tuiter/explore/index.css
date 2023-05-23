@@ -1,0 +1,22 @@
+/*Styling for Explore page*/
+
+.wd-search-icon-posn {
+    position: relative;
+    bottom: 132px;
+    left: 18px;
+}
+
+.wd-search-div-height {
+    height: 48px;
+}
+
+.wd-searchicon-height-width {
+    height: 48px;
+    width: 48px;
+}
+
+.wd-tuits-up {
+    position: relative;
+    bottom: 48px;
+}
+

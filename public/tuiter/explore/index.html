@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!--Linking to Bootstrap-->
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!--Linking with font awesome-->
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+
+    <!--Linking CSS styling documents with the link tag-->
+    <link href="index.css"
+          rel="stylesheet"/>
+
+    <link href="../../tuiter/styles.css"
+          rel="stylesheet"/>
+
+</head>
+<body>
+    <div class="row mt-1 mb-1 ms-1 me-1 border">
+        <div class="col-2">
+            <div class="row mt-2 mb-1">
+                <div class="col-3 me-0 pe-0"> <!--ICons-->
+                    <a href="#" class="list-group-item list-group-item-action border-end-0">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action border-end-0">
+                        <i class="fa fa-home"></i>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action active border-end-0">
+                        <i class="fa fa-hashtag"></i>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action border-end-0">
+                        <i class="fa fa-bell"></i>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action border-end-0">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action border-end-0">
+                        <i class="fa fa-bookmark"></i>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action border-end-0">
+                        <i class="fa fa-list"></i>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action border-end-0">
+                        <i class="fa fa-user-circle"></i>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action border-end-0">
+                        <i class="fa fa-ellipsis-h"></i>
+                    </a>
+
+                </div>
+                <div class="col-9 d-none d-xl-block d-xxl-block text-white ms-0 ps-0"> <!--labels-->
+                    <div class="list-group d-none d-lg-block">
+                        <a href="#" class="list-group-item list-group-item-action border-start-0">
+                            <span class="text-white">Blank</span>
+                        </a>
+                        <a href="home.html" class="list-group-item list-group-item-action border-start-0">
+                            Home
+                        </a>
+                        <a href="explore/index.html" class="list-group-item list-group-item-action border-start-0 active">
+                            Explore
+                        </a>
+                        <a href="notifications.html" class="list-group-item list-group-item-action border-start-0">
+                            Notifications
+                        </a>
+                        <a href="messages.html" class="list-group-item list-group-item-action border-start-0">
+                            Messages
+                        </a>
+                        <a href="bookmarks.html" class="list-group-item list-group-item-action border-start-0">
+                            Bookmarks
+                        </a>
+                        <a href="lists.html" class="list-group-item list-group-item-action border-start-0">
+                            Lists
+                        </a>
+                        <a href="profile.html" class="list-group-item list-group-item-action border-start-0">
+                            Profile
+                        </a>
+                        <a href="tuit.html" class="list-group-item list-group-item-action border-start-0">
+                            More
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row-cols-1">
+                <!--Tuit Button-->
+                <a href="#" class="btn btn-primary rounded-pill">Tuit</a>
+            </div>
+        </div>
+        <div class="col-6 col-xxl-6 col-xl-6 col-lg-6 col-md-8 col-sm-10 mt-2 pb-3">
+            <div class="row mb-2">
+                <!--<h2>Search</h2>-->
+                <div class="col-11">
+                    <input type="text"
+                           class="form-control rounded-pill ps-5"
+                           id="searchinput"
+                           placeholder="Search Twitter">
+                </div>
+                <div class="col-1 mt-2">
+                    <i class="fa fa-cog"></i>
+                </div>
+            </div>
+            <div class="row">
+                <!--<h2>NavBar</h2>-->
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active text-muted" href="#">For you</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sports</a>
+                    </li>
+                    <li class="nav-item d-md-block d-sm-none">
+                        <a class="nav-link" href="#">Entertainment</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <!--<h2>Photo</h2>-->
+                <!--Banner photo-->
+                <img height="400px"
+                     width="100%"
+                     class="ms-0 ps-0 pt-2"
+                     src="https://images.pexels.com/photos/9436715/pexels-photo-9436715.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"/>
+
+                <h2 class="wd-relative-up text-white">The Creative Process</h2>
+            </div>
+            <div class="row border border-top-0 pb-1 wd-tuits-up">
+                <div class="col-10 ps-4 pt-1">
+                    <!--<h4>A Tuit</h4>-->
+                        <span class="text-muted">Web Development</span>
+                    <br/>
+                        <span>
+                            <b>ReactJS</b>
+                            <img width="12px"
+                                 height="12px"
+                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_Verified_Badge.svg/640px-Twitter_Verified_Badge.svg.png"/>
+
+                            <span class="wd-period-separator text-muted"> . </span>
+                            <span class="text-muted">2h</span>
+                        </span>
+                    <br/>
+                        <span>React.js is a component based front end library that makes it very easy to build Single Page Applications os SPA's</span>
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                    <!--<h4>A Photo</h4>-->
+                    <i class="fab fa-react fa-4x"></i>
+                </div>
+            </div>
+            <!--Second Tuit-->
+            <div class="row border border-top-0 pt-1 wd-tuits-up">
+                <div class="col-10 ps-4">
+                    <!--<h4>A Tuit</h4>-->
+                    <span>
+                            <b>JavaScript</b>
+                            <img width="12px"
+                                 height="12px"
+                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_Verified_Badge.svg/640px-Twitter_Verified_Badge.svg.png"/>
+
+                            <span class="wd-period-separator text-muted"> . </span>
+                            <span class="text-muted">2h</span>
+                        </span>
+                    <br/>
+                    <span>JavaScript is programming language that can run on browsers as well as desktops</span>
+                    <br/>
+                    <span class="text-muted">123K Tuits</span>
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                    <!--<h4>A Photo</h4>-->
+                    <i class="fab fa-js fa-4x"></i>
+                </div>
+            </div>
+            <!--Third Tuit-->
+            <div class="row border border-top-0 pt-1 wd-tuits-up">
+                <div class="col-10 ps-4">
+                    <!--<h4>A Tuit</h4>-->
+                    <span class="text-muted">Web Development</span>
+                    <br/>
+                    <span>
+                            <b>Jira</b>
+                        </span>
+                    <br/>
+                    <span class="text-muted">123K Tuits</span>
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                    <!--<h4>A Photo</h4>-->
+                    <i class="fab fa-jira fa-4x"></i>
+                </div>
+            </div>
+            <!--Fourth Tuit-->
+            <div class="row border border-top-0 pt-1 wd-tuits-up">
+                <div class="col-10 ps-4">
+                    <!--<h4>A Tuit</h4>-->
+                    <span class="text-muted">Web Development</span>
+                    <br/>
+                    <span>
+                            <b>NodeJS</b>
+                        <img width="12px"
+                             height="12px"
+                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_Verified_Badge.svg/640px-Twitter_Verified_Badge.svg.png"/>
+
+                            <span class="wd-period-separator text-muted"> . </span>
+                            <span class="text-muted">2h</span>
+                    </span>
+                    <br/>
+                    <span class="text-muted">123K Tuits</span>
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                    <!--<h4>A Photo</h4>-->
+                    <i class="fab fa-node-js fa-4x"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mt-2 d-lg-block d-md-none d-sm-none">
+            <div class="row border me-1">
+                <b>Who to follow</b>
+            </div>
+            <!--Follow 1-->
+            <div class="row border border-top-0 pt-1 pb-1 me-1">
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                    <!--<h4>A Photo</h4>-->
+                    <img width="48px" height="48px"
+                         class="rounded-circle"
+                         src="https://images.pexels.com/photos/3385662/pexels-photo-3385662.jpeg?auto=compress&cs=tinysrgb&w=1200"/>
+                    <!--<i class="fab fa-java fa-3x"></i>-->
+                </div>
+                <div class="col-8">
+                    <span>
+                            <b>Javar</b>
+                        <img width="12px"
+                             height="12px"
+                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_Verified_Badge.svg/640px-Twitter_Verified_Badge.svg.png"/>
+
+                            <span class="wd-period-separator text-muted"> . </span>
+                            <span class="text-muted">2h</span>
+                    </span>
+                    <br/>
+                    <span class="text-muted">@Javar</span>
+                </div>
+                <div class="col-1 d-flex align-items-center justify-content-center">
+                    <!--Follow Button-->
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                </div>
+            </div>
+
+            <!--Follow 2-->
+            <div class="row border border-top-0 pt-1 pb-1 me-1">
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                    <!--<h4>A Photo</h4>-->
+                    <!--<h4>A Photo</h4>-->
+                    <img width="48px" height="48px"
+                         class="rounded-circle"
+                         src="https://images.pexels.com/photos/1037996/pexels-photo-1037996.jpeg?auto=compress&cs=tinysrgb&w=1200"/>
+                    <!--<i class="fab fa-raspberry-pi fa-3x"></i>-->
+                </div>
+                <div class="col-8">
+                    <span>
+                            <b>TechBud</b>
+                        <img width="12px"
+                             height="12px"
+                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_Verified_Badge.svg/640px-Twitter_Verified_Badge.svg.png"/>
+
+                            <span class="wd-period-separator text-muted"> . </span>
+                            <span class="text-muted">2h</span>
+                    </span>
+                    <br/>
+                    <span class="text-muted">@TechBud</span>
+                </div>
+                <div class="col-1 d-flex align-items-center justify-content-center">
+                    <!--Follow Button-->
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                </div>
+            </div>
+
+            <!--Follow 3-->
+            <div class="row border border-top-0 pt-1 pb-1 me-1">
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                    <!--<h4>A Photo</h4>-->
+                    <img width="48px" height="48px"
+                         class="rounded-circle"
+                         src="https://images.pexels.com/photos/2448452/pexels-photo-2448452.jpeg?auto=compress&cs=tinysrgb&w=1200"/>
+                    <!--<i class="fab fa-raspberry-pi fa-3x"></i>-->
+                </div>
+                <div class="col-8">
+                    <span>
+                            <b>StapleR</b>
+                        <img width="12px"
+                             height="12px"
+                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_Verified_Badge.svg/640px-Twitter_Verified_Badge.svg.png"/>
+
+                            <span class="wd-period-separator text-muted"> . </span>
+                            <span class="text-muted">2h</span>
+                    </span>
+                    <br/>
+                    <span class="text-muted">StapleR</span>
+                </div>
+                <div class="col-1 d-flex align-items-center justify-content-center">
+                    <!--Follow Button-->
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                </div>
+            </div>
+            <!--Follow 4-->
+            <div class="row border border-top-0 pt-1 pb-1 me-1">
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                    <!--<h4>A Photo</h4>-->
+                    <!--<h4>A Photo</h4>-->
+                    <img width="48px" height="48px"
+                         class="rounded-circle"
+                         src="https://images.pexels.com/photos/1487711/pexels-photo-1487711.jpeg?auto=compress&cs=tinysrgb&w=1200"/>
+                    <!--<i class="fab fa-raspberry-pi fa-3x"></i>-->
+                </div>
+                <div class="col-8">
+                    <span>
+                            <b>GamerHub</b>
+                        <img width="12px"
+                             height="12px"
+                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_Verified_Badge.svg/640px-Twitter_Verified_Badge.svg.png"/>
+
+                            <span class="wd-period-separator text-muted"> . </span>
+                            <span class="text-muted">2h</span>
+                    </span>
+                    <br/>
+                    <span class="text-muted">@GamerHub</span>
+                </div>
+                <div class="col-1 d-flex align-items-center justify-content-center">
+                    <!--Follow Button-->
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                </div>
+            </div>
+
+            <!--Follow 5-->
+            <div class="row border border-top-0 pt-1 pb-1 me-1">
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                    <!--<h4>A Photo</h4>-->
+                    <!--<h4>A Photo</h4>-->
+                    <img width="48px" height="48px"
+                         class="rounded-circle"
+                         src="https://images.pexels.com/photos/4046714/pexels-photo-4046714.jpeg?auto=compress&cs=tinysrgb&w=1200"/>
+                    <!--<i class="fab fa-raspberry-pi fa-3x"></i>-->
+                </div>
+                <div class="col-8">
+                    <span>
+                            <b>AudioGeek</b>
+                        <img width="12px"
+                             height="12px"
+                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_Verified_Badge.svg/640px-Twitter_Verified_Badge.svg.png"/>
+
+                            <span class="wd-period-separator text-muted"> . </span>
+                            <span class="text-muted">2h</span>
+                    </span>
+                    <br/>
+                    <span class="text-muted">@AudioGeek</span>
+                </div>
+                <div class="col-1 d-flex align-items-center justify-content-center">
+                    <!--Follow Button-->
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <br/>
+    <br/>
+    <br/>
+    <div class="d-block d-sm-none fa-2x">XS</div>
+    <div class="d-none d-sm-block d-md-none fa-2x">S</div>
+    <div class="d-none d-md-block d-lg-none fa-2x">M</div>
+    <div class="d-none d-lg-block d-xl-none fa-2x">L</div>
+    <div class="d-none d-xl-block d-xxl-none fa-2x">XL</div>
+    <div class="d-none d-xxl-block fa-2x">XXL</div>
+
+
+</body>
+</html>

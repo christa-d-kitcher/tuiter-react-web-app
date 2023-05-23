@@ -1,0 +1,66 @@
+
+.wd-bookmarks-page-color {
+    background-color: white;
+    color: black;
+}
+
+.wd-twelvepx-left-padding {
+    padding-left: 12px;
+}
+
+.wd-twelvepx-right-padding {
+    padding-right: 12px;
+}
+
+.wd-twentypx-top-padding {
+    padding-top: 20px;
+}
+
+.wd-twelvepx-bottom-padding {
+    padding-bottom: 12px;
+}
+
+.wd-left-col-width {
+    width: 6%;
+}
+
+.wd-tuit-photo {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+}
+
+.wd-twelvepx-all-round-padding {
+    padding: 12px;
+}
+
+.wd-card-content-border {
+    border:1px solid lightgray;
+    border-top: none;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+}
+
+.wd-all-except-top-border {
+    border:1px solid lightgray;
+    border-top: none;
+}
+
+.wd-card-content-up {
+    position: relative;
+    bottom: 4px;
+}
+
+.wd-tuit-content-up {
+    position: relative;
+    bottom: 14px;
+}
+
+.wd-red-heart-color {
+    color: crimson;
+}
+
+.wd-search-bar {
+    width: 80%;
+}
