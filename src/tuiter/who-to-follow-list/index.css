@@ -1,0 +1,173 @@
+/*Styling that is the same on multiple webpages*/
+
+
+.wd-search-bar-padding {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.wd-txt-color-dark-gray {
+    color: darkgray;
+}
+
+.wd-all-txt-color {
+    color: #5a5a5a;
+}
+
+.wd-bg-color-light-gray {
+    background-color: lightgray;
+}
+
+.wd-rounded-corners-all {
+    border-radius: 20px;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-right {
+    float: right;
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.wd-left-padding {
+    padding-left: 40px;
+}
+
+.wd-up-and-right {
+    position: relative;
+    bottom: 24px;
+    left: 34px;
+}
+
+.wd-bring-to-front {
+    z-index: 100;
+}
+
+.wd-no-bullets {
+    list-style-type: none;
+}
+
+.wd-no-text-deco {
+    text-decoration: none;
+}
+
+.wd-nav-all-round-padding {
+    padding: 20px;
+}
+
+.wd-active-nav-tab {
+    border-bottom: solid;
+    border-bottom-color: blue;
+    border-bottom-width: 3px;
+
+}
+
+.wd-relative-up {
+    position: relative;
+    left: 20px;
+    bottom: 70px;
+}
+
+.wd-text-color-white {
+    color: white;
+}
+
+.wd-content-left-padding {
+    padding-left: 20px;
+}
+
+.wd-content-right-padding {
+    padding-right: 10px;
+}
+
+.wd-move-up {
+    position: relative;
+    bottom: 50px;
+}
+
+.wd-fit-entire-screen {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.wd-valign-top {
+    vertical-align: top;
+}
+
+.wd-valign-center {
+    vertical-align: center;
+}
+
+.wd-twenty-percent-width {
+    width: 20%;
+
+}
+
+.wd-nav-bar-position {
+    padding-left: 20px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+
+.wd-remove-top-margin {
+    margin-top: 0px;
+}
+
+.wd-txt-color-red {
+    color: red;
+}
+
+.wd-font-style {
+    font-family: Helvetica;
+    font-size: 12px;
+}
+
+.wd-center-align {
+    horiz-align: center;
+}
+
+.wd-remove-bottom-margin {
+    padding-bottom: 0px;
+}
+
+.wd-search-bar-format {
+    width: 85%;
+    height: 30px;
+    border: none;
+}
+
+.wd-gear-relative-up {
+    position: relative;
+    bottom: 22px;
+
+}
+
+.wd-nav-bottom-padding {
+    margin-bottom: 20px;
+}
+
+.wd-all-content-border {
+    border:1px solid lightgray;
+
+}
+
+
+.wd-circular-img-disp {
+    border-radius: 56% 48% 42% 55%
+
+}
+
+.wd-period-separator {
+    position: relative;
+    bottom: 3px;
+}
+
+.wd-link-blue-color {
+    color: deepskyblue;
+}
